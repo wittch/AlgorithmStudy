@@ -1,6 +1,10 @@
 #include"13549.h"
 
-
+/*일반 bfs와는 다르게 가중치가 0과 1만 주어져 있을 때 시행하는 bfs이다.
+deque를 이용하여 가중치가 0인 노드는 push_front()을 이용하여 값을 넣으며 갱신하고
+가중치가 1인 노드는 push_back()을 이용하여 값을 넣으며 갱신한다.
+deque의 특성을 활용한 bfs이다.
+*/
 int Algorithm::bfs(int n, int k)
 {
 	deque<int> dq;
