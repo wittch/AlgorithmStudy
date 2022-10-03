@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1912.cpp">
+    <ClCompile Include="14503.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,7 +26,7 @@
     <ClInclude Include="global.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="1912.h">
+    <ClInclude Include="14503.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
